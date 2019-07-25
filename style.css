@@ -2,7 +2,7 @@
     background-color: wheat;
     display: flex;
     width: 300px;
-    height:380px;
+    height:440px;
     flex-wrap: wrap;
 }
 
@@ -12,14 +12,15 @@
 
 }
 
-.result{
+#result{
     width: 100%;
     height:65px;
     background-color: dimgray;
     text-align: right;
+    color: white;
 }
 
-.bouton{
+.bouton,.boutn{
     background-color: slategrey;
     color: white;
     height:60px;
@@ -27,7 +28,7 @@
     border-radius: 10px;
 }
 
-.plus,.moins,.fois,.diviser{
+.plus,.moins,.fois,.diviser,.AC,.fleche,.egal,.point,.plusmoins{
     width: 23%;
     background-color: beige;
     color: black;
@@ -44,6 +45,6 @@
 .egal{
     height:60px;
     background-color: orange;
-    width:140px;
+    width:200px;
 }
 
